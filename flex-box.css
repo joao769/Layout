@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 12px; 
+}
+
+header {
+    border: 2px solid green;
+    color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    border: 2px solid yellow;
+    color: yellow;
+    width: 70%;
+    padding: 10px;
+    align-self: center;
+}
+
+main {
+    border: 2px solid green;
+    color: green;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.conteudo-principal {
+    flex: 2.45;
+}
+
+section {
+    border: 2px solid yellow;
+    color: yellow;
+    padding: 10px;
+    height: 325px;
+    margin: 10px 0px 0px 0px;
+}
+
+.section02 {
+    height: 75px;
+}
+
+article {
+    border: 2px solid blue;
+    color: blue;
+    height: 70px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+aside {
+    border: 2px solid yellow;
+    color: yellow;
+    flex: 1;
+    padding: 10px;
+}
+
+aside > section {
+    border: 2px solid blue;
+    color: blue;
+    height: 100px;
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+footer {
+    border: 2px solid green;
+    color: green;
+    padding: 10px;
+}
