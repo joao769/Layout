@@ -8,16 +8,16 @@ body {
     background-color: black;
     font-family: Arial, sans-serif;
     display: grid;
-    grid-template-rows: 70px 1fr auto;
-    gap: 10px;
-    padding: 10px;
+    grid-template-rows: 55px 1fr auto;
+    gap: 7px;
+    padding: 7px;
     font-size: 12px;
 }
   
 header {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
     display: flex;
     justify-content: space-between;
 }
@@ -26,35 +26,35 @@ nav {
     width: 70%;
     border: 2px solid yellow;
     color: yellow;
-    padding: 10px;
+    padding: 7px;
     align-self: center;
 }
   
 main {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
     display: grid;
-    grid-template-columns: 1fr 30%;
-    gap: 10px;
+    grid-template-columns: 1fr 25%;
+    gap: 7px;
 }
   
-.conteudo-principal {
+.main-content {
     display: grid;
     grid-template-rows: 20px auto 100px;
-    gap: 10px;
+    gap: 7px;
 }
   
 section {
     border: 2px solid yellow;
     color: yellow;
-    padding: 10px;
+    padding: 7px;
 }
   
 article {
     border: 2px solid blue;
     color: blue;
-    padding: 10px;
+    padding: 7px;
     height: 70px;
     margin-top: 5px;
 }
@@ -62,21 +62,41 @@ article {
 aside {
     border: 2px solid yellow;
     color: yellow;
-    padding: 10px;
+    padding: 7px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
 }
   
-aside>section {
+.aside-content > section {
     border: 2px solid blue;
     color: blue;
-    padding: 10px;
     height: 100px;
+    padding: 7px;
+    margin-top: 5px;
 }
   
 footer {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
 } 
+
+@media (max-width: 680px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .aside-content {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+
+    .aside-content > section {
+        min-width: 100px;
+        white-space: nowrap;
+        margin-right: 5px;
+        flex-shrink: 0;
+    }
+}

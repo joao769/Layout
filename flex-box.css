@@ -9,15 +9,15 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+    gap: 7px;
+    padding: 7px;
     font-size: 12px; 
 }
 
 header {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
     display: flex;
     justify-content: space-between;
 }
@@ -26,31 +26,30 @@ nav {
     border: 2px solid yellow;
     color: yellow;
     width: 70%;
-    padding: 10px;
+    padding: 7px;
     align-self: center;
 }
 
 main {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
     display: flex;
-    gap: 10px;
+    gap: 7px;
 }
 
-.conteudo-principal {
-    flex: 2.45;
+.main-content {
+    flex: 3;
 }
 
 section {
     border: 2px solid yellow;
     color: yellow;
-    padding: 10px;
-    height: 325px;
-    margin: 10px 0px 0px 0px;
+    padding: 7px;
+    margin-top: 5px;
 }
 
-.section02 {
+.extra-section {
     height: 75px;
 }
 
@@ -58,7 +57,7 @@ article {
     border: 2px solid blue;
     color: blue;
     height: 70px;
-    padding: 10px;
+    padding: 7px;
     margin-top: 5px;
 }
 
@@ -66,19 +65,43 @@ aside {
     border: 2px solid yellow;
     color: yellow;
     flex: 1;
-    padding: 10px;
+    padding: 7px;
 }
 
-aside > section {
+.aside-content > section {
     border: 2px solid blue;
     color: blue;
     height: 100px;
-    padding: 10px;
-    margin: 5px 0px 0px 0px;
+    padding: 7px;
+    margin-top: 5px;
 }
 
 footer {
     border: 2px solid green;
     color: green;
-    padding: 10px;
+    padding: 7px;
+}
+
+@media (max-width: 680px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .aside-content {
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+    }
+  
+    .aside-content > section {
+        min-width: 120px;
+        white-space: nowrap;
+        margin-right: 5px;
+        flex-shrink: 0;
+    }
+      
+    .main-content {
+        flex: 1; 
+        min-width: 100%; 
+    }
 }
