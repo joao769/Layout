@@ -2,7 +2,7 @@
 
 ## 📝 Sobre o Projeto
 
-Este repositório apresenta dois projetos focados em layouts responsivos, utilizando Flexbox e CSS Grid, como parte da disciplina Programação para Web do curso de Engenharia de Software da UPE. As atividades foram propostas pelo professor Augusto César, com o objetivo de comparar as abordagens e destacar as vantagens de cada técnica.
+Este repositório contém dois projetos voltados para a criação de layouts responsivos, utilizando Flexbox e CSS Grid, como parte da disciplina **Programação para Web** no curso de **Engenharia de Software** da UPE. As atividades, propostas pelo professor Augusto César, visam comparar as duas abordagens e destacar as principais vantagens de cada uma.
 
 ## ✨ Características
 
