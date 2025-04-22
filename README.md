@@ -22,13 +22,13 @@ Este repositório contém dois projetos voltados para a criação de layouts res
 
 ## 🔎 Diferenças Percebidas
 
-| Aspecto                           | Apenas Flexbox                                                        | CSS Grid + Flexbox                                                            |
-|-----------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Estrutura do layout               | Organização mais linear, ideal para layouts em uma única direção       | Permite definir áreas com mais precisão, criando grades e divisões complexas |
-| Facilidade para layouts complexos | Pode exigir soluções alternativas com `margin` e `order`               | Mais direto e visual para distribuir áreas como header, sidebar e footer     |
-| Controle de eixos                 | Trabalha melhor em um eixo por vez (horizontal ou vertical)            | Controle total nos dois eixos (linha e coluna) ao mesmo tempo                |
-| Uso do Flexbox                    | Total, tanto para estrutura quanto para conteúdo interno               | Usado principalmente para alinhar e distribuir elementos dentro das áreas    |
+O uso do **Flexbox** foi bem eficiente para criar layouts mais simples, especialmente quando os elementos precisavam se alinhar em uma única direção, como uma coluna ou uma linha. Ele oferece um bom controle de espaçamento e alinhamento, sendo prático para organizar o conteúdo de forma rápida.
+
+Já o **CSS Grid** se destacou pela facilidade em dividir a página em áreas bem definidas, como `header`, `main`, `aside` e `footer`. Com ele, foi mais fácil criar uma estrutura visualmente organizada e adaptável. A possibilidade de controlar linhas e colunas ao mesmo tempo tornou o layout mais flexível e limpo.
+
+Combinar os dois foi essencial: o **Grid** cuidou da estrutura principal e o **Flexbox** ajudou no alinhamento interno dos elementos. Essa abordagem trouxe mais controle e responsividade ao projeto.
 
 ## 🌍 Visualização
 
-👉 [Visualize os projetos aqui](https://joao769.github.io/layout-responsivo-css/)
+- [Visualizar Projeto com Flexbox](https://joao769.github.io/layout-responsivo-css/flexbox)
+- [Visualizar Projeto com CSS Grid + Flexbox](https://joao769.github.io/layout-responsivo-css/grid)
