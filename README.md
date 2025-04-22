@@ -22,7 +22,7 @@ Este repositório contém dois projetos voltados para a criação de layouts res
 
 ## 🔎 Diferenças Percebidas
 
-O uso do **Flexbox** foi bem eficiente para criar layouts mais simples, especialmente quando os elementos precisavam se alinhar em uma única direção, como uma coluna ou uma linha. Ele oferece um bom controle de espaçamento e alinhamento, sendo prático para organizar o conteúdo de forma rápida.
+O uso do **Flexbox** foi eficiente para criar **um** layout mais simples, onde os elementos foram alinhados de forma prática em uma direção (linha ou coluna). Ele proporcionou controle fácil de espaçamento e alinhamento, sendo ideal para a estruturação rápida do conteúdo.
 
 Já o **CSS Grid** se destacou pela facilidade em dividir a página em áreas bem definidas, como `header`, `main`, `aside` e `footer`. Com ele, foi mais fácil criar uma estrutura visualmente organizada e adaptável. A possibilidade de controlar linhas e colunas ao mesmo tempo tornou o layout mais flexível e limpo.
 
